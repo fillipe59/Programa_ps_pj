@@ -1,0 +1,51 @@
+#wrap{
+	font-family: Times, Roboto, Palatino;
+	color: blue;
+	background: url('azul.jpg'), no-repeat top center;
+	background-size: cover;
+	height: 100vh;
+}
+article{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	background: #D3D3D3;
+	margin: 10px;
+	width: 1000px;
+	height: 400px;
+	border-radius: 8px;
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 15px;
+}
+div{
+	display: block;
+}
+#titulo{
+	padding: 15px;
+	color: #1E90FF;
+}
+#subtitulo{
+	padding: 0px 0px 5px 15px;
+	color: #1E90FF;
+}
+#par{
+	color: blue;
+}
+button{
+	background: #1E90FF;
+	color: white;
+	cursor: pointer;
+	border: none;
+	border-radius: 4px;
+	padding: 10px;
+	font-size: 15px;
+	margin: 20px;
+}
+button:hover{
+	background: orange;
+	transition: .3s;
+}
